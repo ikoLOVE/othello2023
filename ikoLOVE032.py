@@ -230,7 +230,7 @@ class OchibiAI(OthelloAI):
         return valid_moves[0]
 
 class iohana(OthelloAI):
-    def __init__(self, face, name):
+    def __init__(self):
         self.face = '🌱'
         self.name = 'iohana'
 
